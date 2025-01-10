@@ -7,7 +7,7 @@
         background-image: url(../images/mobile/image-header.jpg);
         background-repeat:no-repeat;
         /* width: 30rem; */
-        height: 43rem;
+        height: 44rem;
         background-size: cover;
     }
     
@@ -39,7 +39,7 @@
     background-image: url(../images/mobile/image-transform.jpg);
     background-repeat:no-repeat;
     width: 100%;
-    height: 39rem;
+    height: 40rem;
     background-size: contain;
     }
     .boxone{
@@ -48,6 +48,7 @@
       width: 100%;
       justify-content: center;
       align-items: center;
+      margin-top: -8rem;
 
     }
     .smalltext {
@@ -57,9 +58,13 @@
         color: #8e8787f2;
         
     }
-    .headingcontainer{
-        font-size:3rem;
-        /* padding:6rem 2rem 0rem 2rem; */
+    .headingcontainer {
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top:7rem;
     }
     .arrowcontainer {
         font-size: 11.1rem;
@@ -83,12 +88,14 @@
         flex-direction: column;
     }
     .boxone.container-3box-1 {
-        height: 34rem;
+        height: 29rem;
         background-color: white;
         width: 28rem;
+        margin:2rem;
     }
     .containertwo.container-3 {
         flex-direction:column-reverse;
+
     }
     
     .container-4box-1{
